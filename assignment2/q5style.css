@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+
+#navbar{
+   width:1500px;
+   background-color: gray;
+   color: white;
+   position: fixed;
+}
+
+#first{
+    height:500px;
+    width: 1500px;
+    background-color: red;
+    margin:0;
+}
+#second{
+    height:500px;
+    width: 1500px;
+    background-color: salmon;
+    margin:0;
+   
+}
+#third{
+    height:500px;
+    width: 1500px;
+    background-color:pink;
+    margin:0;
+}

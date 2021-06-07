@@ -1,0 +1,32 @@
+/*p{
+   background-color: salmon;
+   margin: 10px 20px 10px 100px; 
+   padding: 0px 150px 0px 150px;
+   border-style: dashed;
+
+   border: blue 1px dashed;
+   height:100px;
+   background-image:url("images/.png");
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+}
+*/
+
+/* this is the parent */
+.container{
+    background-color: salmon;
+    display:flex;
+    justify-content: center; /* this will align the element in the center*/
+}
+
+/* this is the child */
+.items{
+    background-color: orange;
+}
+
+.items-1{
+    order:2;
+}
+.items-2{
+    order:1;
+}

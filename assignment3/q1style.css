@@ -1,0 +1,11 @@
+#box{
+    height:100px;
+    width:100px;
+    background-color: lightsalmon;
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+#box:hover{
+    background-color: lightblue;
+}

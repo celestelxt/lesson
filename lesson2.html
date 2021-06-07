@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- you create a css style sheet and link this html page to the css style page-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <!-- internal css is a better option-->
+    <style>
+        div{
+            height:50px;
+            width:50px;
+            background-color:blue;
+        }
+    /* this is how you call out the id */
+        #box-1{
+        height:200px;
+        width:200px;
+        background-color: red;
+        }
+        
+        #box5{
+            height: 100px;
+        }
+
+    /* this is how you call out the class */
+        .general{
+        height:200px;
+        width:200px;
+        background-color: purple;
+        } 
+
+        .box3{
+            background-color: green;
+            
+        }
+
+    </style>
+
+    <body>
+        <div id="box-1" class="general"></div> 
+        <!--you can have both id and class within div -->
+
+
+        <!-- PRACTICE: the rest of the div is blue, height and width of 20px-->
+        <div></div>
+        <div></div>
+        <!-- class, background colour green -->
+        <div class="box3"></div>
+        <div></div>
+        <!-- id, change height to 100px -->
+        <div id= "box5"></div>
+    </body>
+
+    <body>
+        <p class="tall">this is a paragraph.</p>
+        <p class="changefont">this is a paragraph.</p>
+        <p id="p3">this is a paragraph.</p>
+        <p>this is a paragraph.</p>
+        <p class="tall">this is a paragraph.</p>
+    </body>
+</html>

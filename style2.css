@@ -1,0 +1,28 @@
+this is known as the external css
+body{
+    background-color: lightblue;
+}
+
+p{
+    background-color: lightpink;
+}
+
+#p3{
+    color: red;
+}
+
+.tall{
+    height: 40px;
+}
+
+.changefont{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+div{
+    height: 10vw;
+    width: 10vw;
+    background-color: salmon;
+}
+
