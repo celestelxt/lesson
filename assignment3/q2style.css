@@ -1,0 +1,15 @@
+a{
+    color:red;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 3s;
+}
+
+a:hover{
+    color:green;
+}
+
+a:visited{
+    color:plum;
+}
+

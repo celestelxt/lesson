@@ -4,7 +4,7 @@ body{
 
 #flower{
     background-image:url("https://www.wallpaperbetter.com/wallpaper/239/10/382/spring-flower-mountain-photos-720P-wallpaper-middle-size.jpg");
-    height: 100%;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat ;

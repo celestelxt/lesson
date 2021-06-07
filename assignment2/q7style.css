@@ -1,6 +1,10 @@
-#box{
+.container{
     height:100px;
     width: 100px;
     background-color: lightpink;
+    position: relative;
+}
+.item{
+    position:absolute;
 }
 
