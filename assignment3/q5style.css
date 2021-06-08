@@ -1,0 +1,29 @@
+#ball{
+    background-color: darkseagreen;
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    position:relative;
+    animation-name: move-box;
+    animation-duration:5s;
+    animation-fill-mode:backwards;
+}
+
+@keyframes move-box{
+    0%{
+        left:1000px;
+        top:0;
+    }
+    50%{
+        left:0;
+        top:0;
+    }
+    75%{
+        left:0;
+        top:500px;
+    }
+    100%{
+        left:1000px;
+        top:0;
+    }
+}

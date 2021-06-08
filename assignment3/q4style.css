@@ -1,0 +1,35 @@
+#container{
+  justify-content: center;  
+  align-items: center;
+    
+}
+
+#box1{
+    height:400px;
+    width:400px;
+    background-color: darkred;
+}
+
+#box2{
+    height:400px;
+    width:400px;
+    background-color: rgb(201, 91, 110);
+}
+
+#box3{
+    height:400px;
+    width:400px;
+    background-color: rgb(245, 157, 172);
+}
+
+#box4{
+    height:400px;
+    width:400px;
+    background-color: rgb(232, 181, 190);
+}
+
+#box5{
+    height:400px;
+    width:400px;
+    background-color: rgb(255, 210, 210);
+}
